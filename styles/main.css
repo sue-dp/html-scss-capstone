@@ -1,1 +1,49 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body .page-container {
+  background-color: #d9d9d9;
+  display: grid;
+  grid-template-rows: 2fr 4fr 0.5fr;
+}
+body .page-container .lady-liberty {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 30%;
+  position: center;
+}
+body .page-container .lady-liberty .top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 150px;
+}
+body .page-container .lady-liberty .top-nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+body .page-container .lady-liberty .top-nav-bar button {
+  background-color: #e91e63;
+  color: white;
+  font-size: 10px;
+  border-color: #e91e63;
+  border-radius: 42px;
+  border: none;
+  height: 50px;
+  width: 75px;
+}
+body .page-container .lady-liberty .top-nav-bar .top-left-nav {
+  display: flex;
+  font-family: Roboto;
+  font-size: 18px;
+  align-items: center;
+}
+body .page-container .lady-liberty .top-nav-bar .top-right-nav {
+  display: flex;
+  justify-content: space-around;
+  font-family: Roboto;
+  font-size: 10px;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
