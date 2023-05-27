@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+body .page-container {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #d9d9d9;
+  display: grid;
+  grid-template-rows: 1fr 2fr 0.1fr;
+}
+body .page-container .top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 150px;
+  background-color: white;
+}
+body .page-container .top-nav-bar .top-left-nav {
+  display: flex;
+  font-family: Roboto;
+  font-size: 18px;
+  align-items: center;
+}
+body .page-container .top-nav-bar .top-left-nav a {
+  text-decoration: none;
+  color: white;
+}
+body .page-container .top-nav-bar .top-right-nav {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 10px;
+  align-items: center;
+  padding: 0 10px;
+  width: 20%;
+}
+body .page-container .top-nav-bar .top-right-nav a {
+  text-decoration: none;
+  color: white;
+}
+body .page-container .top-nav-bar .top-right-nav button {
+  background-color: #e91e63;
+  color: white;
+  font-size: 10px;
+  border-color: #e91e63;
+  border-radius: 42px;
+  border: none;
+  height: 50px;
+  width: 75px;
+}
+body .page-container .pink-header {
+  display: flex;
+  justify-content: center;
+  background-color: #e91e63;
+}
+body .page-container .pink-header h2 {
+  font-family: Roboto;
+  color: white;
+  font-size: 42px;
+}
+body .page-container .pink-header p {
+  font-family: Roboto;
+  color: white;
+  font-size: 18px;
+}
+body .page-container .main-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4%;
+  margin-left: 2.5%;
+  z-index: 2;
+  width: 95%;
+  height: 104%;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 5px 9px 4px rgba(0, 0, 0, 0.43);
+}
+body .page-container .main-card .blockquote {
+  font-family: Roboto;
+  color: #3c4858;
+  font-size: 18px;
+}/*# sourceMappingURL=basehtml.css.map */
