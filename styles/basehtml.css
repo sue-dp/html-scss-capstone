@@ -61,7 +61,7 @@ body .page-container .pink-header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #e91e63;
+  background-image: linear-gradient(to right, #ad1f82, #bf217f, #d0257c, #e02c77, #ee3672);
   height: 50vh;
 }
 body .page-container .pink-header h2 {

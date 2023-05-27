@@ -1,79 +1,18 @@
-@import "variables.scss";
-@import "mixins.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
 
 body {
-  margin: 0;
-  height: 100%;
-  width: 100%;
+  @include body;
 
   .page-container {
-    margin: 0;
-    height: 100%;
-    width: 100%;
-    background-color: #d9d9d9;
-    display: flex;
-    flex-direction: column;
-    // display: grid;
-    // grid-template-rows: 0.1fr 0.5fr 0.1fr;
+    @include page-container;
 
     .top-nav-bar {
-      display: flex;
-      justify-content: space-between;
-      padding: 25px 150px;
-      background-color: white;
-      height: 60px;
-      position: sticky;
-      top: 0;
-      width: 100%;
-      z-index: 3;
-
-      .top-left-nav {
-        display: flex;
-        font-family: Roboto;
-        font-size: 18px;
-        align-items: center;
-
-        a {
-          text-decoration: none;
-          color: #555555;
-        }
-      }
-
-      .top-right-nav {
-        display: flex;
-        justify-content: space-between;
-        font-family: Roboto;
-        font-size: 12px;
-        align-items: center;
-        padding: 0 10px;
-        width: 25%;
-
-        a {
-          text-decoration: none;
-          color: #555555;
-          cursor: pointer;
-        }
-
-        button {
-          background-color: $hot-pink;
-          color: white;
-          font-size: 12px;
-          border-color: $hot-pink;
-          border-radius: 42px;
-          border: none;
-          height: 50px;
-          width: 75px;
-        }
-      }
+      @include top-nav-bar;
     }
 
     .pink-header {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      background-color: $hot-pink;
-      height: 50vh;
+      @include pink-header;
 
       h2 {
         font-family: Roboto;
@@ -92,18 +31,7 @@ body {
     }
 
     .main-card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      margin-top: -4%;
-      margin-left: 2.5%;
-      z-index: 2;
-      width: 95%;
-      height: 104%;
-      border-radius: 5px;
-      background-color: white;
-      box-shadow: 0px 5px 9px 4px rgba(0, 0, 0, 0.43);
+      @include main-card;
 
       .blockquote {
         font-family: Roboto;
@@ -160,33 +88,7 @@ body {
           }
 
           .social-media-buttons {
-            display: flex;
-            justify-content: flex-end;
-            align-items: center;
-            width: 50%;
-
-            button {
-              height: 40px;
-              width: 40px;
-              border-radius: 20px;
-              border: none;
-              margin: 0 5px;
-            }
-
-            .facebook-button {
-              background-color: #3b5998;
-              color: white;
-            }
-
-            .twitter-button {
-              background-color: #55acee;
-              color: white;
-            }
-
-            .email-button {
-              background-color: #999999;
-              color: white;
-            }
+            @include social-media-buttons;
           }
 
           hr {
@@ -258,17 +160,7 @@ body {
     }
 
     .related-posts {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      // height: 55vh;
-
-      h2 {
-        font-family: Roboto Slab;
-        font-size: 37px;
-        padding: 5% 0;
-      }
+      @include related-posts;
 
       .blog-links {
         display: flex;
@@ -392,46 +284,7 @@ body {
       }
     }
     .footer {
-      display: flex;
-      justify-content: space-between;
-      background-color: #323437;
-      width: 100%;
-
-      .bottom-left-nav {
-        display: flex;
-        justify-content: center;
-        padding: 25px 150px;
-        width: 50%;
-
-        a {
-          text-decoration: none;
-          color: white;
-          font-family: Roboto;
-          font-size: 12px;
-          align-items: center;
-          margin-right: 10px;
-        }
-      }
-
-      .bottom-right-nav {
-        display: flex;
-        justify-content: space-between;
-        padding: 25px 150px;
-        width: 50%;
-
-        p {
-          color: white;
-          font-family: Roboto;
-          font-size: 14px;
-          align-items: center;
-          margin: 0;
-        }
-        a {
-          color: white;
-          text-decoration: none;
-          cursor: pointer;
-        }
-      }
+      @include footer;
     }
   }
 }
