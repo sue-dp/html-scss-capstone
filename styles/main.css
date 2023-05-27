@@ -9,7 +9,7 @@ body .page-container {
   width: 100%;
   background-color: #d9d9d9;
   display: grid;
-  grid-template-rows: 1fr 2fr 0.1fr;
+  grid-template-rows: 1fr 2fr 0.05fr;
 }
 body .page-container .lady-liberty {
   background-image: url(../mark-harpur-K2s_YE031CA-unsplash.jpg);
@@ -315,10 +315,11 @@ body .page-container .main-card .get-in-touch {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 75%;
+  height: 40%;
   display: flex;
   flex-direction: column;
   justify-content: left;
+  padding-top: 10%;
 }
 body .page-container .main-card .get-in-touch h1 {
   font-family: Roboto Slab;
@@ -328,51 +329,69 @@ body .page-container .main-card .get-in-touch h1 {
 }
 body .page-container .main-card .get-in-touch .git-icon-one {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: left;
   padding-left: 15%;
   align-items: left;
 }
 body .page-container .main-card .get-in-touch .git-icon-one i {
-  width: 40px;
-  height: 36px;
   color: white;
+  padding-right: 10px;
 }
-body .page-container .main-card .get-in-touch .git-icon-one h4 {
+body .page-container .main-card .get-in-touch .git-icon-one .icon-descriptors {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+body .page-container .main-card .get-in-touch .git-icon-one .icon-descriptors h4 {
   font-family: Roboto Slab;
   font-size: 18px;
   color: white;
+  margin: 0;
+  padding-top: 15px;
 }
-body .page-container .main-card .get-in-touch .git-icon-one p {
+body .page-container .main-card .get-in-touch .git-icon-one .icon-descriptors p {
   display: flex;
   flex-direction: column;
   font-family: Roboto;
   font-size: 14px;
   color: #eaeaea;
+  margin: 0;
+  padding-top: 10px;
 }
 body .page-container .main-card .get-in-touch .git-icon-two {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: left;
   padding-left: 15%;
   align-items: left;
 }
 body .page-container .main-card .get-in-touch .git-icon-two i {
-  width: 40px;
-  height: 36px;
   color: white;
+  padding-right: 10px;
 }
-body .page-container .main-card .get-in-touch .git-icon-two h4 {
+body .page-container .main-card .get-in-touch .git-icon-two .icon-descriptors {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+body .page-container .main-card .get-in-touch .git-icon-two .icon-descriptors h4 {
   font-family: Roboto Slab;
   font-size: 18px;
   color: white;
+  margin: 0;
+  padding-top: 15px;
 }
-body .page-container .main-card .get-in-touch .git-icon-two p {
+body .page-container .main-card .get-in-touch .git-icon-two .icon-descriptors p {
   display: flex;
   flex-direction: column;
   font-family: Roboto;
   font-size: 14px;
   color: #eaeaea;
+  margin: 0;
+  padding-top: 10px;
 }
 body .page-container .footer {
   display: flex;
@@ -383,7 +402,7 @@ body .page-container .footer .bottom-left-nav {
   display: flex;
   justify-content: space-between;
   padding: 25px 150px;
-  width: 10%;
+  width: 20%;
 }
 body .page-container .footer .bottom-left-nav a {
   text-decoration: none;

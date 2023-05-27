@@ -12,7 +12,7 @@ body {
     width: 100%;
     background-color: $page-container-background-color;
     display: grid;
-    grid-template-rows: 1fr 2fr 0.1fr;
+    grid-template-rows: 1fr 2fr 0.05fr;
 
     .lady-liberty {
       background-image: url(../mark-harpur-K2s_YE031CA-unsplash.jpg);
@@ -368,10 +368,11 @@ body {
         background-repeat: no-repeat;
         background-size: cover;
         width: 100%;
-        height: 75%;
+        height: 40%;
         display: flex;
         flex-direction: column;
         justify-content: left;
+        padding-top: 10%;
 
         h1 {
           font-family: Roboto Slab;
@@ -382,61 +383,82 @@ body {
 
         .git-icon-one {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: left;
           padding-left: 15%;
           align-items: left;
 
           i {
-            width: 40px;
-            height: 36px;
             color: white;
+            padding-right: 10px;
           }
 
-          h4 {
-            font-family: Roboto Slab;
-            font-size: 18px;
-            color: white;
-          }
-
-          p {
+          .icon-descriptors {
             display: flex;
             flex-direction: column;
-            font-family: Roboto;
-            font-size: 14px;
-            color: #eaeaea;
+            align-items: left;
+            justify-content: center;
+
+            h4 {
+              font-family: Roboto Slab;
+              font-size: 18px;
+              color: white;
+              margin: 0;
+              padding-top: 15px;
+            }
+
+            p {
+              display: flex;
+              flex-direction: column;
+              font-family: Roboto;
+              font-size: 14px;
+              color: #eaeaea;
+              margin: 0;
+              padding-top: 10px;
+            }
           }
         }
 
         .git-icon-two {
           display: flex;
-          flex-direction: column;
+          flex-direction: row;
           justify-content: left;
           padding-left: 15%;
           align-items: left;
 
           i {
-            width: 40px;
-            height: 36px;
             color: white;
+            padding-right: 10px;
           }
 
-          h4 {
-            font-family: Roboto Slab;
-            font-size: 18px;
-            color: white;
-          }
-
-          p {
+          .icon-descriptors {
             display: flex;
             flex-direction: column;
-            font-family: Roboto;
-            font-size: 14px;
-            color: #eaeaea;
+            align-items: left;
+            justify-content: center;
+
+            h4 {
+              font-family: Roboto Slab;
+              font-size: 18px;
+              color: white;
+              margin: 0;
+              padding-top: 15px;
+            }
+
+            p {
+              display: flex;
+              flex-direction: column;
+              font-family: Roboto;
+              font-size: 14px;
+              color: #eaeaea;
+              margin: 0;
+              padding-top: 10px;
+            }
           }
         }
       }
     }
+
     .footer {
       display: flex;
       justify-content: space-between;
@@ -446,7 +468,7 @@ body {
         display: flex;
         justify-content: space-between;
         padding: 25px 150px;
-        width: 10%;
+        width: 20%;
 
         a {
           text-decoration: none;
