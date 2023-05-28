@@ -75,8 +75,6 @@ body .page-container .pink-header p {
   font-family: Roboto;
   color: white;
   font-size: 18px;
-  font-weight: 300;
-  padding-bottom: 4%;
 }
 body .page-container .main-card {
   display: flex;
@@ -91,16 +89,18 @@ body .page-container .main-card {
   border-radius: 5px;
   background-color: white;
   box-shadow: 0px 5px 9px 4px rgba(0, 0, 0, 0.43);
+  padding-top: 5%;
 }
-body .page-container .main-card .blockquote {
+body .page-container .main-card p {
   font-family: Roboto;
   color: #3c4858;
   font-size: 18px;
-  padding-top: 3%;
 }
 body .page-container .main-card .bottom-row {
   display: flex;
   flex-direction: column;
+  width: 50%;
+  padding-bottom: 5%;
 }
 body .page-container .main-card .bottom-row .categories {
   display: flex;
@@ -136,7 +136,12 @@ body .page-container .main-card .bottom-row .categories .left-side .ptag-button 
   width: 110px;
   height: 20px;
 }
-body .page-container .main-card .bottom-row .categories .left-side .tags a {
+body .page-container .main-card .bottom-row .categories .left-side .tags p {
+  padding-right: 10px;
+  font-family: Roboto;
+  font-size: 14px;
+}
+body .page-container .main-card .bottom-row .categories .left-side .tags p a {
   text-decoration: none;
   color: #e91e63;
 }
@@ -164,58 +169,6 @@ body .page-container .main-card .bottom-row .categories .social-media-buttons .t
 body .page-container .main-card .bottom-row .categories .social-media-buttons .email-button {
   background-color: #999999;
   color: white;
-}
-body .page-container .main-card .bottom-row .categories hr {
-  border: 1px solid #3c4858;
-}
-body .page-container .main-card .bottom-row .comments {
-  display: flex;
-  text-align: center;
-}
-body .page-container .main-card .bottom-row .comments h2 {
-  font-family: Roboto Slab;
-  font-size: 27px;
-}
-body .page-container .main-card .bottom-row .comments .image-comment {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-body .page-container .main-card .bottom-row .comments .image-comment .image {
-  display: flex;
-  justify-content: left;
-}
-body .page-container .main-card .bottom-row .comments .image-comment .image img {
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-}
-body .page-container .main-card .bottom-row .comments .image-comment .name-comment {
-  display: flex;
-  flex-direction: column;
-  align-items: left;
-  margin-left: 2%;
-}
-body .page-container .main-card .bottom-row .comments .image-comment .name-comment .name-date {
-  display: flex;
-  flex-direction: row;
-  align-items: baseline;
-}
-body .page-container .main-card .bottom-row .comments .image-comment .name-comment .name-date a {
-  text-decoration: none;
-  font-family: Roboto Slab;
-  font-size: 18.2px;
-}
-body .page-container .main-card .bottom-row .comments .image-comment .name-comment .name-date p {
-  font-family: Roboto;
-  font-size: 13.65px;
-  padding-left: 3%;
-}
-body .page-container .main-card .bottom-row .comments .image-comment .name-comment p {
-  font-family: Roboto;
-  font-size: 16px;
-  text-align: left;
 }
 body .page-container .related-posts {
   display: flex;
@@ -335,6 +288,17 @@ body .page-container .related-posts .blog-links .blog-three p {
   font-size: 14px;
   color: #999999;
 }
+body .page-container .related-posts .blog-links .blog-three p a {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #23527c;
+  text-decoration: none;
+}
+body .page-container .related-posts .blog-links .blog-three p a:hover {
+  cursor: pointer;
+  transition: 0.3s ease;
+  color: #e91e63;
+}
 body .page-container .footer {
   display: flex;
   justify-content: space-between;
@@ -372,4 +336,4 @@ body .page-container .footer .bottom-right-nav a {
   color: white;
   text-decoration: none;
   cursor: pointer;
-}/*# sourceMappingURL=basehtml.css.map */
+}/*# sourceMappingURL=moretags.css.map */
