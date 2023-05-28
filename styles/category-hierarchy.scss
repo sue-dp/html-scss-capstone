@@ -1,0 +1,110 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+body {
+  @include body;
+
+  .page-container {
+    @include page-container;
+
+    .top-nav-bar {
+      @include top-nav-bar;
+    }
+
+    .pink-header {
+      @include pink-header;
+
+      h2 {
+        font-family: Roboto;
+        color: white;
+        font-size: 42px;
+        font-weight: 500;
+      }
+      p {
+        font-family: Roboto;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        padding-bottom: 4%;
+      }
+    }
+    .main-card {
+      @include main-card;
+      // height: 115%;
+
+      .body-text {
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: flex-start;
+        font-family: Roboto;
+        font-size: 15px;
+        color: #3c4858;
+        width: 43%;
+        padding-top: 3%;
+      }
+      .bottom-row {
+        display: flex;
+        flex-direction: column;
+
+        .categories {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          width: 100%;
+
+          .left-side {
+            display: flex;
+            flex-direction: column;
+            font-family: Roboto;
+            font-size: 14px;
+            color: #3c4858;
+            justify-content: flex-start;
+            width: 50%;
+
+            .ptag-button {
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              align-items: center;
+              width: 75%;
+
+              p {
+                padding-right: 10px;
+                font-family: Roboto;
+                font-size: 14px;
+              }
+              .narrow-button {
+                background-color: $hot-pink;
+                border: none;
+                border-radius: 25px;
+                font-family: Roboto;
+                font-size: 10px;
+                color: white;
+                width: auto;
+                height: 20px;
+                margin: 5px 10px;
+              }
+            }
+            .tags {
+              a {
+                text-decoration: none;
+                color: $hot-pink;
+              }
+            }
+          }
+
+          .social-media-buttons {
+            @include social-media-buttons;
+          }
+
+          hr {
+            border: 1px solid #3c4858;
+          }
+        }
+      }
+    }
+    .footer {
+      @include footer;
+    }
+  }
+}
