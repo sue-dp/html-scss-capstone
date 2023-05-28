@@ -1,0 +1,284 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
+body {
+  @include body;
+
+  .page-container {
+    @include page-container;
+
+    .top-nav-bar {
+      @include top-nav-bar;
+    }
+
+    .pink-header {
+      @include pink-header;
+
+      h2 {
+        font-family: Roboto;
+        color: white;
+        font-size: 42px;
+        font-weight: 500;
+      }
+
+      p {
+        font-family: Roboto;
+        color: white;
+        font-size: 18px;
+        font-weight: 300;
+        padding-bottom: 4%;
+      }
+    }
+
+    .main-card {
+      @include main-card;
+
+      .body-text {
+        font-family: Roboto;
+        font-size: 15px;
+        color: #3c4858;
+        width: 43%;
+
+        .intro {
+          padding-top: 5%;
+          font-weight: 100;
+        }
+
+        .headings {
+          h1 {
+            font-family: Roboto;
+            font-size: 42px;
+            color: #3c4858;
+          }
+          h2 {
+            font-family: Roboto;
+            font-size: 37px;
+            color: #3c4858;
+          }
+          h3 {
+            font-family: Roboto;
+            font-size: 32px;
+            color: #3c4858;
+          }
+          h4 {
+            font-family: Roboto;
+            font-size: 27px;
+            color: #3c4858;
+          }
+          h5 {
+            font-family: Roboto;
+            font-size: 23px;
+            color: #3c4858;
+          }
+          h6 {
+            font-family: Roboto;
+            font-size: 18px;
+            color: #3c4858;
+          }
+          p {
+            color: $hot-pink;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+        .paragraphs {
+          h2 {
+            font-family: Roboto;
+            font-size: 37px;
+            color: #3c4858;
+          }
+          .firstpara {
+            font-family: Roboto;
+            font-size: 18px;
+            color: #3c4858;
+
+            a {
+              color: $hot-pink;
+              text-decoration: none;
+            }
+          }
+          .secondpara {
+            font-family: Roboto;
+            font-size: 18px;
+            color: #3c4858;
+            span {
+              font-style: italic;
+            }
+          }
+          p {
+            color: $hot-pink;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+        .list-types {
+          h2 {
+            font-family: Roboto;
+            font-size: 37px;
+            color: #3c4858;
+          }
+          h3 {
+            font-family: Roboto;
+            font-size: 32px;
+            color: #3c4858;
+          }
+          dt {
+            font-family: Roboto;
+            font-size: 18px;
+            color: #3c4858;
+            font-weight: 500;
+          }
+
+          dd {
+            font-family: Roboto;
+            font-size: 18px;
+            color: #3c4858;
+            margin: 0;
+          }
+          p {
+            color: $hot-pink;
+            a {
+              text-decoration: none;
+            }
+          }
+        }
+        .forms {
+          h2 {
+            font-family: Roboto;
+            font-size: 37px;
+            color: #3c4858;
+          }
+          form {
+            .legend {
+              font-family: Roboto;
+              font-size: 21px;
+              color: #3c4858;
+            }
+            .form-legend {
+              font-family: Roboto;
+              font-size: 18px;
+              color: #3c4858;
+            }
+            p {
+              font-family: Roboto;
+              font-size: 18px;
+              color: #3c4858;
+            }
+            label {
+              font-family: Roboto;
+              font-size: 18px;
+              color: #3c4858;
+              font-weight: 500;
+            }
+            input {
+              border: none;
+              border-bottom: 1px solid #3c4858;
+              width: 100%;
+              margin-bottom: 20px;
+            }
+            textarea {
+              border: none;
+              border-bottom: 1px solid #3c4858;
+              width: 100%;
+              margin-bottom: 20px;
+            }
+            select {
+              display: flex;
+              flex-direction: column;
+              border: 1px solid #3c4845;
+              padding: 7px;
+            }
+            .radiob {
+              font-family: Roboto;
+              font-size: 18px;
+              color: #3c4858;
+              font-weight: 500;
+            }
+            .radio-buttons {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+
+              p {
+                font-family: Roboto;
+                font-size: 18px;
+                color: #3c4858;
+                font-weight: 100;
+
+                input {
+                  position: relative;
+                  display: flex;
+                  align-items: left;
+                  margin-top: 10px;
+                  // justify-content: flex-start;
+                }
+              }
+            }
+            .checkb {
+              font-family: Roboto;
+              font-size: 18px;
+              color: #3c4858;
+              font-weight: 500;
+              padding-top: 7px;
+            }
+            .checkboxes {
+              display: flex;
+              flex-direction: column;
+              align-items: flex-start;
+
+              p {
+                font-family: Roboto;
+                font-size: 18px;
+                color: #3c4858;
+                font-weight: 100;
+
+                input {
+                  display: flex;
+                  align-items: left;
+                }
+              }
+            }
+            .file-input {
+              font-family: Roboto;
+              font-size: 18px;
+              color: #3c4858;
+              font-weight: 500;
+              form {
+                input {
+                  border-bottom: none;
+                }
+              }
+            }
+
+            .last-buttons {
+              display: flex;
+
+              .clear {
+                border: 1px solid $hot-pink;
+                width: 50px;
+                height: 40px;
+                color: grey;
+              }
+              .submit {
+                border: 1px solid $hot-pink;
+                width: 100px;
+                height: 40px;
+                color: grey;
+                background-color: $hot-pink;
+                margin-left: 2px;
+              }
+            }
+            .top {
+              color: $hot-pink;
+              a {
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
