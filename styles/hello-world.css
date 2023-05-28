@@ -136,34 +136,37 @@ body .page-container .main-card .bottom-row .categories .left-side .ptag-button 
   width: 110px;
   height: 20px;
 }
-body .page-container .main-card .bottom-row .social-media-buttons {
+body .page-container .main-card .bottom-row .categories .social-media-buttons {
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 50%;
 }
-body .page-container .main-card .bottom-row .social-media-buttons button {
+body .page-container .main-card .bottom-row .categories .social-media-buttons button {
   height: 40px;
   width: 40px;
   border-radius: 20px;
   border: none;
   margin: 0 5px;
 }
-body .page-container .main-card .bottom-row .social-media-buttons .facebook-button {
+body .page-container .main-card .bottom-row .categories .social-media-buttons .facebook-button {
   background-color: #3b5998;
   color: white;
 }
-body .page-container .main-card .bottom-row .social-media-buttons .twitter-button {
+body .page-container .main-card .bottom-row .categories .social-media-buttons .twitter-button {
   background-color: #55acee;
   color: white;
 }
-body .page-container .main-card .bottom-row .social-media-buttons .email-button {
+body .page-container .main-card .bottom-row .categories .social-media-buttons .email-button {
   background-color: #999999;
   color: white;
 }
 body .page-container .main-card .bottom-row .comments {
   display: flex;
-  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
 }
 body .page-container .main-card .bottom-row .comments h2 {
   font-family: Roboto Slab;
@@ -365,4 +368,4 @@ body .page-container .footer .bottom-right-nav a {
   color: white;
   text-decoration: none;
   cursor: pointer;
-}/*# sourceMappingURL=basehtml.css.map */
+}/*# sourceMappingURL=hello-world.css.map */
