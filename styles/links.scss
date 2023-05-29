@@ -67,9 +67,11 @@ body {
           .ptag-button {
             display: flex;
             align-items: center;
+            justify-content: center;
 
             p {
               padding-right: 10px;
+              padding-bottom: 20px;
               font-family: Roboto;
               font-size: 14px;
             }

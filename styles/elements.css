@@ -339,9 +339,9 @@ body .page-container .main-card .body-text .miscellaneous p {
   color: #3c4858;
 }
 body .page-container .main-card .body-text .miscellaneous .scrollbox pre {
-  display: flex;
+  display: block;
   padding: 9.5px;
-  margin: 0 0 10px;
+  margin: 0 0 10px 0;
   font-size: 13px;
   line-height: 1.42857143;
   word-break: break-all;
@@ -350,6 +350,7 @@ body .page-container .main-card .body-text .miscellaneous .scrollbox pre {
   background-color: #f5f5f5;
   border: 1px solid #ccc;
   border-radius: 4px;
+  overflow: scroll;
 }
 body .page-container .main-card .body-text .miscellaneous .top {
   color: #e91e63;

@@ -30,12 +30,8 @@ body {
     }
     .main-card {
       @include main-card;
-      // height: 115%;
 
       .body-text {
-        // display: flex;
-        // flex-direction: row;
-        // justify-content: flex-start;
         font-family: Roboto;
         font-size: 15px;
         color: #3c4858;
@@ -95,10 +91,6 @@ body {
 
           .social-media-buttons {
             @include social-media-buttons;
-          }
-
-          hr {
-            border: 1px solid #3c4858;
           }
         }
       }

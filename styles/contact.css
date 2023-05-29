@@ -5,7 +5,7 @@ body {
 }
 body .page-container {
   margin: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   background-color: #d9d9d9;
   display: flex;
@@ -57,118 +57,106 @@ body .page-container .top-nav-bar .top-right-nav button {
   height: 50px;
   width: 75px;
 }
-body .page-container .pink-header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-image: linear-gradient(to right, #ad1f82, #bf217f, #d0257c, #e02c77, #ee3672);
-  height: 50vh;
-}
-body .page-container .pink-header h2 {
-  font-family: Roboto;
-  color: white;
-  font-size: 42px;
-  font-weight: 500;
-}
-body .page-container .pink-header p {
-  font-family: Roboto;
-  color: white;
-  font-size: 18px;
-  font-weight: 300;
-  padding-bottom: 4%;
-}
-body .page-container .main-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: -4%;
-  margin-left: 2.5%;
-  z-index: 2;
-  width: 95%;
-  height: 104%;
-  border-radius: 5px;
-  background-color: white;
-  box-shadow: 0px 5px 9px 4px rgba(0, 0, 0, 0.43);
-}
-body .page-container .main-card .body-text {
-  font-family: Roboto;
-  font-size: 15px;
-  color: #3c4858;
-  width: 43%;
-  padding-top: 3%;
-}
-body .page-container .main-card .bottom-row {
-  display: flex;
-  flex-direction: column;
-}
-body .page-container .main-card .bottom-row .categories {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+body .page-container .map-bar iframe {
   width: 100%;
 }
-body .page-container .main-card .bottom-row .categories .left-side {
+body .page-container .main-area {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+body .page-container .main-area .send-us-message-form {
   display: flex;
   flex-direction: column;
-  font-family: Roboto;
-  font-size: 14px;
-  color: #3c4858;
-  justify-content: flex-start;
   width: 50%;
-}
-body .page-container .main-card .bottom-row .categories .left-side .ptag-button {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  width: 75%;
+  height: 100%;
 }
-body .page-container .main-card .bottom-row .categories .left-side .ptag-button p {
-  padding-right: 10px;
-  font-family: Roboto;
-  font-size: 14px;
+body .page-container .main-area .send-us-message-form h2 {
+  font-family: Roboto Slab;
+  font-size: 37px;
 }
-body .page-container .main-card .bottom-row .categories .left-side .ptag-button .narrow-button {
-  background-color: #e91e63;
+body .page-container .main-area .send-us-message-form input {
+  width: 60%;
   border: none;
-  border-radius: 25px;
+  border-bottom: 1px solid lightgrey;
+  padding-top: 10px;
   font-family: Roboto;
-  font-size: 10px;
-  color: white;
-  width: auto;
-  height: 20px;
-  margin: 5px 10px;
+  font-size: 12px;
+  color: lightgrey;
 }
-body .page-container .main-card .bottom-row .categories .left-side .tags a {
-  text-decoration: none;
+body .page-container .main-area .send-us-message-form textarea {
+  width: 60%;
+  border: none;
+  border-bottom: 1px solid lightgrey;
+  height: 40%;
+  padding-top: 10px;
+  font-family: Roboto;
+  font-size: 12px;
+  color: lightgrey;
+}
+body .page-container .main-area .send-us-message-form .submit {
+  align-self: flex-start;
+  border: none;
+  background-color: #e91e63;
+  color: white;
+  font-family: Roboto;
+  font-size: 12px;
+  margin-top: 2%;
+  width: 100px;
+  margin-left: 20%;
+  height: 50px;
+  border-radius: 5px;
+}
+body .page-container .main-area .contact-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 10% 20% 10% 5%;
+}
+body .page-container .main-area .contact-info i {
   color: #e91e63;
 }
-body .page-container .main-card .bottom-row .categories .social-media-buttons {
+body .page-container .main-area .contact-info h4 {
+  font-family: Roboto Slab;
+  font-size: 18px;
+  padding-left: 10px;
+}
+body .page-container .main-area .contact-info p {
+  font-family: Roboto;
+  font-size: 12px;
+  color: lightgrey;
+  margin: 3px 0;
+}
+body .page-container .main-area .contact-info .address {
   display: flex;
-  justify-content: flex-end;
+  flex-direction: column;
+}
+body .page-container .main-area .contact-info .address .icon-heading {
+  display: flex;
+  flex-direction: row;
   align-items: center;
-  width: 50%;
 }
-body .page-container .main-card .bottom-row .categories .social-media-buttons button {
-  height: 40px;
-  width: 40px;
-  border-radius: 20px;
-  border: none;
-  margin: 0 5px;
+body .page-container .main-area .contact-info .telephone {
+  display: flex;
+  flex-direction: column;
 }
-body .page-container .main-card .bottom-row .categories .social-media-buttons .facebook-button {
-  background-color: #3b5998;
-  color: white;
+body .page-container .main-area .contact-info .telephone .icon-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
-body .page-container .main-card .bottom-row .categories .social-media-buttons .twitter-button {
-  background-color: #55acee;
-  color: white;
+body .page-container .main-area .contact-info .legal-info {
+  display: flex;
+  flex-direction: column;
 }
-body .page-container .main-card .bottom-row .categories .social-media-buttons .email-button {
-  background-color: #999999;
-  color: white;
+body .page-container .main-area .contact-info .legal-info .icon-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 body .page-container .footer {
   display: flex;
@@ -207,4 +195,4 @@ body .page-container .footer .bottom-right-nav a {
   color: white;
   text-decoration: none;
   cursor: pointer;
-}/*# sourceMappingURL=category-hierarchy.css.map */
+}/*# sourceMappingURL=contact.css.map */
