@@ -433,4 +433,10 @@ body .page-container .footer .bottom-right-nav a {
   color: white;
   text-decoration: none;
   cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+  .page-container .top-nav-bar .top-right-nav {
+    width: 50%;
+  }
 }/*# sourceMappingURL=main.css.map */

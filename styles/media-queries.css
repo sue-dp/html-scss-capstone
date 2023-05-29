@@ -1,1 +1,5 @@
-/*# sourceMappingURL=media-queries.css.map */
+@media (max-width: 1300px) {
+  .page-container .top-nav-bar .top-right-nav {
+    width: 50%;
+  }
+}/*# sourceMappingURL=media-queries.css.map */
