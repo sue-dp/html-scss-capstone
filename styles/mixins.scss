@@ -181,3 +181,9 @@
     padding: 5% 0;
   }
 }
+
+@mixin icon-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

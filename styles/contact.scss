@@ -97,29 +97,23 @@ body {
           flex-direction: column;
 
           .icon-heading {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
+            @include icon-heading;
           }
-        }
-        .telephone {
-          display: flex;
-          flex-direction: column;
-
-          .icon-heading {
+          .telephone {
             display: flex;
-            flex-direction: row;
-            align-items: center;
+            flex-direction: column;
+
+            .icon-heading {
+              @include icon-heading;
+            }
           }
-        }
-        .legal-info {
-          display: flex;
-          flex-direction: column;
-
-          .icon-heading {
+          .legal-info {
             display: flex;
-            flex-direction: row;
-            align-items: center;
+            flex-direction: column;
+
+            .icon-heading {
+              @include icon-heading;
+            }
           }
         }
       }

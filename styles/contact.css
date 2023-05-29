@@ -140,20 +140,20 @@ body .page-container .main-area .contact-info .address .icon-heading {
   flex-direction: row;
   align-items: center;
 }
-body .page-container .main-area .contact-info .telephone {
+body .page-container .main-area .contact-info .address .telephone {
   display: flex;
   flex-direction: column;
 }
-body .page-container .main-area .contact-info .telephone .icon-heading {
+body .page-container .main-area .contact-info .address .telephone .icon-heading {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-body .page-container .main-area .contact-info .legal-info {
+body .page-container .main-area .contact-info .address .legal-info {
   display: flex;
   flex-direction: column;
 }
-body .page-container .main-area .contact-info .legal-info .icon-heading {
+body .page-container .main-area .contact-info .address .legal-info .icon-heading {
   display: flex;
   flex-direction: row;
   align-items: center;
